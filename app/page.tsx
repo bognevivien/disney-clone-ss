@@ -1,3 +1,4 @@
+import CarouselBannerWrapper from "@/components/CarouselBannerWrapper";
 import MoviesCaroussel from "@/components/MoviesCaroussel";
 import { Button } from "@/components/ui/button";
 import {
@@ -14,11 +15,10 @@ export default async function Home() {
 
   return (
     <main className="">
-      {/* CarouselBannerWrapper */}
-
+      <CarouselBannerWrapper />
       <div className="flex flex-col space-y-2 xl:-mt-48">
-        <MoviesCaroussel movies={upcomingMovies} title="UpComing" />
-        <MoviesCaroussel movies={topratedMovies} title="TopRated" />
+        <MoviesCaroussel movies={upcomingMovies} title="Up Coming" />
+        <MoviesCaroussel movies={topratedMovies} title="Top Rated" />
         <MoviesCaroussel movies={popularMovies} title="Popular" />
       </div>
     </main>
