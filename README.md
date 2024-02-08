@@ -42,5 +42,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - create search page, genre page, add shadcn ui with button and create dark mode with themetoggler
 - build the header :
     - logo,
-    -  search input -using form from shadcn ui- 
+    - search input -using form from shadcn ui- 
     - genre dropdown
+- build the movie caroussel
