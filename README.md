@@ -39,3 +39,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## process:
 
 - initialising the build: bootstrap the project , install extension (Azure Functions, tailwindcss intellisence, es7+React...snippet)
+- create search page, genre page, add shadcn ui with button and create dark mode with themetoggler
+- build the header :
+    - logo,
+    -  search input -using form from shadcn ui- 
+    - genre dropdown

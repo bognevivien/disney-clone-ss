@@ -5,7 +5,6 @@ export default function Home() {
   return (
     <main className="">
       <h1 className="">lets build disney</h1>
-      <Button variant={"link"}>Click Me</Button>
     </main>
   );
 }
